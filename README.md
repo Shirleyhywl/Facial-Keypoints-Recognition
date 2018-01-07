@@ -213,7 +213,7 @@ for n in range(1, 7):
 ```
 
 
-![png](output_10_0.png)
+![png](README_files/output_10_0.png)
 
 
 #### Plot Examples From Complete Labels
@@ -226,7 +226,7 @@ for n in range(1, 7):
 ```
 
 
-![png](output_12_0.png)
+![png](README_files/output_12_0.png)
 
 
 
@@ -235,7 +235,7 @@ self.plot_example(self.train_data[n], self.train_labels[n], legend=False)
 ```
 
 
-![png](output_13_0.png)
+![png](README_files/output_13_0.png)
 
 
 ## Feature Engineering
@@ -255,7 +255,7 @@ self.plot_example(self.blur_data(self.train_data)[1], self.train_labels[1], lege
 ```
 
 
-![png](output_16_0.png)
+![png](README_files/output_16_0.png)
 
 
 ### Filling Missing Labels
@@ -272,7 +272,7 @@ self.plot_example(self.train_data_n[1], self.average_nans(self.train_labels_n)[1
 ```
 
 
-![png](output_18_0.png)
+![png](README_files/output_18_0.png)
 
 
 ### Flipping the Image
@@ -289,7 +289,7 @@ self.plot_example(self.train_data_f[0], self.train_labels_f[0], legend=False)
 ```
 
 
-![png](output_20_0.png)
+![png](README_files/output_20_0.png)
 
 
 ## Model 1, K- Nearest Neighbors
@@ -559,7 +559,7 @@ plt.hist([n[1] for n in rmse_1_1], bins='auto')
 
 
 
-![png](output_31_2.png)
+![png](README_files/output_31_2.png)
 
 
 
@@ -583,7 +583,7 @@ for n in range(1, 4):
 
 
 
-![png](output_32_1.png)
+![png](README_files/output_32_1.png)
 
 
 #### Plot a Prediction
@@ -600,7 +600,7 @@ self.plot_example(self.dev_data[example_num], self.dev_labels[example_num], y_pr
 
 
 
-![png](output_34_1.png)
+![png](README_files/output_34_1.png)
 
 
 #### Using Flipped Images to Extend Our Training Data
@@ -898,7 +898,7 @@ plt.hist([n[1] for n in rmse_2_4], bins='auto')
 
 
 
-![png](output_51_2.png)
+![png](README_files/output_51_2.png)
 
 
 
@@ -922,7 +922,7 @@ for n in range(1, 4):
 
 
 
-![png](output_52_1.png)
+![png](README_files/output_52_1.png)
 
 
 #### Plot a Prediction
@@ -940,7 +940,7 @@ self.plot_example(self.dev_data[example_num], self.dev_labels[example_num],
 
 
 
-![png](output_54_1.png)
+![png](README_files/output_54_1.png)
 
 
 #### Examining our Learning Curves
@@ -964,7 +964,7 @@ plt.ylabel('Loss Function')
 
 
 
-![png](output_57_1.png)
+![png](README_files/output_57_1.png)
 
 
 
@@ -1037,7 +1037,7 @@ plot_learning_curves(mlp2, data_scaler.transform(data), label_scaler.transform(l
 
 
 
-![png](output_61_1.png)
+![png](README_files/output_61_1.png)
 
 
 #### Using Flipped Images to Extend Our Training Data
@@ -1268,7 +1268,7 @@ with tf.Session() as sess:
 ```
 
 
-![png](output_80_0.png)
+![png](README_files/output_80_0.png)
 
 
 #### Test the Betas with the Development Data
@@ -1520,7 +1520,7 @@ plt.show()
 
 
 
-![png](output_98_1.png)
+![png](README_files/output_98_1.png)
 
 
 # Having Some Fun!
@@ -1538,5 +1538,5 @@ self.plot_example(self.rgb2gray(im)/255.0, label_scaler.inverse_transform(noah_l
 ```
 
 
-![png](output_101_0.png)
+![png](README_files/output_101_0.png)
 
